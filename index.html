@@ -1,0 +1,194 @@
+﻿<!DOCTYPE html>
+<html>    
+	<head>
+		<meta charset="UTF-8">	
+		<meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
+		<link rel="stylesheet" href="Stylesheet.css">
+		<title>Kenny's Random Quiz</title>
+	</head>
+	<body>
+		<div class="pointsystem">
+			<p class="pointholder">points: 0/16</p>
+			<p class="pointholder"></p>
+		</div>
+		<div class="animation"></div>
+		<h1 class="title">Computer Quiz</h1>
+		<div class="body1">
+			<form>
+				<p>Does computer need electricity to run? (1 point)</p>
+				<input type="radio" id="yes" name="Electricity">
+				<label for="yes">yes</label>
+				<br>
+				<input type="radio" id="no" name="Electricity">
+				<label for="no">no</label>
+				<br><br>
+				<p class ="status"></p>
+				<br>
+				<p class="answer"></p>
+				<br><br>
+				<p>What does ram do? (1 point)</p>
+				<input type="radio" id="Short-term" name="Ram">
+				<label for="Short-term">Store and acess short-term data</label>
+				<br>
+				<input type="radio" id="Files" name="Ram">
+				<label for="Files">Stores your files</label>
+				<br>
+				<input type="radio" id="Graphic Processing" name="Ram">
+				<label for="Graphic Processing">Graphic Processing power</label>
+				<br>
+				<input type="radio" id="Coding" name="Ram">
+				<label for="Coding">Creates coding Programs</label>
+				<br><br>
+				<p class="status"></p>
+				<br>
+				<p class="answer"></p>
+				<br><br>
+			</form>
+		</div>
+		<div class="body2">
+			<form>
+				<p>Which of the following below are used for your cpu: (2 point for all correct answers)</P>
+				<input type="checkbox" id="Paste" name="ThermalPaste">
+				<label for="Paste" class="radioboxcustom">Thermal Paste</label>
+				<br>
+				<input type="checkbox" id="Pads" name="coolingpad">
+				<label for="Pads" class="radioboxcustom">cooling pads</label>
+				<br>
+				<input type="checkbox" id="Sticks" name="Ramsticks">
+				<label for="sticks" class="radioboxcustom">RamSticks</label>
+				<br><br>
+				<p class="status"></p>
+				<br>
+				<p class="answer"></p>
+				<br><br>
+				<p>Which computer part(s) below are inside a motherboard? (2 point for all correct answers)</P>
+				<input type="checkbox" id="Core" name="CoreUnit">
+				<label for="Core" class="radioboxcustom">CPU</label>
+				<br>
+				<input type="checkbox" id="Ram2" name="RamSticks2">
+				<label for="Ram2" class="radioboxcustom">Ram</label>
+				<br>
+				<input type="checkbox" id="PSU" name="P-supply">
+				<label for="PSU" class="radioboxcustom">Power Supply</label>
+				<br>
+				<input type="checkbox" id="SSD" name="Drivestorage">
+				<label for="SSD" class="radioboxcustom">SSD</label>
+				<p class="status"></p>
+				<br>
+				<p class="answer"></p>
+				<br><br>
+			</form>
+		</div>
+		<br>
+		<div class="body3">
+			<p class="textbox1">Who created Mac? (1 point)<br><br>(Type answer in Lowercase with no space)</p>
+			<br>
+			<form>
+				<label for="Mac">Answer:&nbsp </label>
+				<input type="text" id="Mac" name="Mac"class="textboxsize">
+				<br>
+			</form>
+			<p class="status"></p>
+			<br>
+			<p class="answer"></p>
+			<br><br>
+			<p class="textbox1">Who created Window? (1 point) <br><br>(Type answer in Lowercase with no space)</p>
+			<br>
+			<form class="textbox">
+				<label for="Window">Answer:&nbsp </label>
+				<input type="text" id="Window" name="Window" class="textboxsize">
+				<br>
+			</form>
+			<p class="status"></p>
+			<br>
+			<p class="answer"></p>
+			<br><br>
+		</div>
+		<br>
+		<p>
+			<b>Matching question (might have more than one answer) Match the numbers or description from the right with the items 
+			in the left by clicking on the items first and then the description. (4 points)</b>
+		</p>
+		<br>
+		<p id="matchinganswer">
+			<span id="matching1numberorder"></span>
+			<span id="matching1id">MotherBoard</span>
+		</p>
+		<p class="status"></p>
+		<br>
+		<p class="answer"></p>
+		<br>
+		<p id="matchingchoice">
+			<span id="matching1numberorderchoice">1.</span>
+			<span id="matching1idchoice">Used to hold things like the M.2 Drives.</span>
+		</p>
+		<p id="matchinganswer">
+			<span id="matching2numberorder"></span>
+			<span id="matching2id">P.C Case</span>
+		</p>
+		<p class="status"></p>
+		<br>
+		<p class="answer"></p>
+		<br>
+		<p id="matchingchoice">
+			<span id="matching2numberorderchoice">2.</span>
+			<span id="matching2idchoice">For connecting things like your ssd to motherboard</span>
+		</p>
+		<p id="matchinganswer">
+			<span id="matching3numberorder"></span>
+			<span id="matching3id">Keyboard</span>
+		</p>
+		<p class="status"></p>
+		<br>
+		<p class="answer"></p>
+		<br>
+		<p id="matchingchoice">
+			<span id="matching3numberorderchoice">3.</span>
+			<span id="matching3idchoice">Used to hold computer parts inside.</span>
+		</p>
+		<p id="matchinganswer">
+			<span id="matching4numberorder"></span>
+			<span id="matching4id">Sata Cable</span>
+		</p>
+		<p class="status"></p>
+		<br>
+		<p class="answer"></p>
+		<br>
+		<p id="matchingchoice">
+			<span id="matching4numberorderchoice">4.</span>
+			<span id="matching4idchoice">Used for typing</span>
+		</p>
+		<p>
+			<b>Organize these answers in order of which parts you would install first on 
+			your computer from 1 being the first part and 4 being the last part (4 points)</b>
+		</p>
+		<br><br>
+		<ol class="drinks">
+			<li id="reorderanswer1">GPU</li>
+			<p class="status"></p>
+			<br>
+			<p class="answer"></p>
+			<br>
+			<li id="reorderanswer2">SSD</li>
+			<p class="status"></p>
+			<br>
+			<p class="answer"></p>
+			<br>
+			<li id="reorderanswer3">RAM</li>
+			<p class="status"></p>
+			<br>
+			<p class="answer"></p>
+			<br>
+			<li id="reorderanswer4">CPU</li>
+			<p class="status"></p>
+			<br>
+			<p class="answer"></p>
+			<br>
+		</ol>
+		<br><br><br>
+		<div class="buttonlayout">
+			<button type="button" id="buttonusage" onClick="Submit()">Submit your Quiz</button> 
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
